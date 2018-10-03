@@ -1,0 +1,156 @@
+14:17:05 Tree   INFO  - Set default for host and Port
+14:17:05 Tree   INFO  - Host: 127.0.0.1 Port: 3000
+14:17:05 Commu  INFO  - Connect to 127.0.0.1 3000
+14:17:05 Commu  INFO  - Server is free. Communication are established
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Start building XML...
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - CreateBinaryNode -->XML
+14:17:05 Tree   INFO  - No Tyo. Standard will be set
+14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
+14:17:05 Tree   INFO  - Check for Cycles
+14:17:05 Tree   INFO  - Finish building XML
+14:17:05 Tree   INFO  - Call send
+14:17:05 Commu  INFO  - Send data
+14:17:05 Commu  INFO  - Finish send data
+14:17:05 Tree   INFO  - Call disconnect
+14:17:05 Commu  INFO  - Close Connection
