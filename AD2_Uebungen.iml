@@ -13,6 +13,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Uebungen" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung04/as/aufgabe01/Original" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />

@@ -224,62 +224,76 @@ public class BinarySearchTree<K extends Comparable<? super K>, V> {
             root = tempRoot.getLeftChild();
             return entry;
         }
-        Node parent = findRemoveParent(root, entry);
-        if(parent == null){return null;}
-        Node toRemove = parent.getLeftChild();
-        boolean leftChild = true;       //is "toRemove" the left child of "parent"?
-        if(parent.getRightChild() != null && entry.getKey().equals(parent.getRightChild().getEntry().getKey())){
+        Node removeParent = findRemoveParent(root, entry);
+        if(removeParent == null){return null;}
+        Node toRemove = removeParent.getLeftChild();
+        boolean leftChild = true;       //is "toRemove" the left child of "removeParent"?
+        if(removeParent.getRightChild() != null && entry.getKey().equals(removeParent.getRightChild().getEntry().getKey())){
             leftChild = !leftChild;
-            toRemove = parent.getRightChild();
+            toRemove = removeParent.getRightChild();
         }
         // 1. Case, "toRemove" has no children
         if(toRemove.getRightChild() == null && toRemove.getLeftChild() == null){
             if(leftChild){
-                parent.setLeftChild(null);
+                removeParent.setLeftChild(null);
             }else{
-                parent.setRightChild(null);
+                removeParent.setRightChild(null);
             }
         }else if(toRemove.getLeftChild() != null && toRemove.getRightChild() != null){ // 2. Case, "toRemove" has exactly 2 Children
             Node replaceNodeParent = findNextInlineNodeParent(toRemove);
-            Node replaceNode;
-            if(replaceNodeParent.getLeftChild() == null){
-                replaceNode = replaceNodeParent;
-                if(leftChild){
-                    parent.setLeftChild(replaceNode);
-                }else{
-                    parent.setRightChild(replaceNode);
-                }
-                replaceNode.setLeftChild(toRemove.getLeftChild());
-                replaceNode.setRightChild(toRemove.getRightChild().getRightChild());
 
-                return entry;
-            }
-            replaceNode = replaceNodeParent.getLeftChild();
-            replaceNodeParent.setLeftChild(replaceNodeParent.getLeftChild().getRightChild());
-            if(leftChild){
-                parent.setLeftChild(replaceNode);
+            Node replaceNode = replaceNodeParent.getLeftChild() != null?replaceNodeParent.getLeftChild():replaceNodeParent;
+            toRemove.setEntry(replaceNode.getEntry());
+
+            if(replaceNode != replaceNodeParent){
+                replaceNodeParent.setLeftChild(replaceNodeParent.getLeftChild().getRightChild());
             }else{
-                parent.setRightChild(replaceNode);
+                toRemove.setRightChild(replaceNode.getRightChild());
             }
-            replaceNode.setLeftChild(toRemove.getLeftChild());
-            replaceNode.setRightChild(toRemove.getRightChild());
+
+
+
+//            Node replaceNodeParent = findNextInlineNodeParent(toRemove);
+//            Node replaceNode;
+//
+//            if(replaceNodeParent.getLeftChild() == null){
+//                replaceNode = replaceNodeParent;
+//                if(leftChild){
+//                    removeParent.setLeftChild(replaceNode);
+//                }else{
+//                    removeParent.setRightChild(replaceNode);
+//                }
+//                replaceNode.setLeftChild(toRemove.getLeftChild());
+//                replaceNode.setRightChild(toRemove.getRightChild().getRightChild());
+//
+//                return entry;
+//            }
+//            replaceNode = replaceNodeParent.getLeftChild();
+//            replaceNodeParent.setLeftChild(replaceNodeParent.getLeftChild().getRightChild());
+//            if(leftChild){
+//                removeParent.setLeftChild(replaceNode);
+//            }else{
+//                removeParent.setRightChild(replaceNode);
+//            }
+//            replaceNode.setLeftChild(toRemove.getLeftChild());
+//            replaceNode.setRightChild(toRemove.getRightChild());
         }else if(toRemove.getLeftChild() != null){ // 3. Case, "toRemove" has exactly 1 Child
             if(leftChild){
-                parent.setLeftChild(toRemove.getLeftChild());
+                removeParent.setLeftChild(toRemove.getLeftChild());
             }else{
-                parent.setRightChild(toRemove.getLeftChild());
+                removeParent.setRightChild(toRemove.getLeftChild());
             }
         }else if(toRemove.getRightChild() != null){
             if(leftChild){
-                parent.setLeftChild(toRemove.getRightChild());
+                removeParent.setLeftChild(toRemove.getRightChild());
             }else{
-                parent.setRightChild(toRemove.getRightChild());
+                removeParent.setRightChild(toRemove.getRightChild());
             }
         }
         return entry;
     }
 
-    private Node findNextInlineNodeParent(Node startNode){
+    public Node findNextInlineNodeParent(Node startNode){
         if(startNode == null){return null;}
         if(startNode.getRightChild() == null){return startNode;}
         startNode = startNode.getRightChild();
@@ -290,7 +304,7 @@ public class BinarySearchTree<K extends Comparable<? super K>, V> {
         return startNode;
     }
 
-    private Node findRemoveParent(Node startNode, Entry<K, V> entry){
+    public Node findRemoveParent(Node startNode, Entry<K, V> entry){
         if(startNode == null){return null;}
         if(startNode.getLeftChild() != null && startNode.getLeftChild().getEntry().equals(entry)){
             return startNode;

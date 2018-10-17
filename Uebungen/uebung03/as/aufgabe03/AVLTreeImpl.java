@@ -111,13 +111,13 @@ class AVLTreeImpl<K extends Comparable<? super K>, V> extends
             child.setHeight(0);
             return entry;
         }
-        AVLNode parent = avlNode(findInsertParent(root, entry));
-        if(key.compareTo(parent.getEntry().getKey()) < 0){
-            parent.setLeftChild(child);
-            parent.getLeftChild().setParent(parent);
+        actionNode = avlNode(findInsertParent(root, entry));
+        if(key.compareTo(actionNode.getEntry().getKey()) < 0){
+            actionNode.setLeftChild(child);
+            actionNode.getLeftChild().setParent(actionNode);
         }else{
-            parent.setRightChild(child);
-            parent.getRightChild().setParent(parent);
+            actionNode.setRightChild(child);
+            actionNode.getRightChild().setParent(actionNode);
         }
         assureHeights(child);
         return entry;
