@@ -19,7 +19,15 @@ public class MergeSort {
   public static <T extends Comparable<? super T>> T[] mergeSort(T[] s) {  
     
     // TODO Implement here...
-    
+    if(s.length > 1){
+      T[] s1 = newInstance(s, s.length/2);
+      T[] s2 = s1.clone();
+      System.arraycopy(s, 0, s1, 0,s.length/2);
+      System.arraycopy(s, s.length/2, s2, 0, s.length/2);
+      s1 = mergeSort(s1);
+      s2 = mergeSort(s2);
+      s = merge(s1, s2);
+    }
     return s;
   }
   
@@ -36,8 +44,16 @@ public class MergeSort {
     int si = 0; // First Element in 'Sequence' S
     
     // TODO Implement here...
-    
-    return null;
+    for(; si < s.length; si++){
+      if(bi >= b.length || (ai < a.length && a[ai].compareTo(b[bi])<=0)){
+        s[si] = a[ai];
+        ai++;
+      }else if(ai >= a.length || a[ai].compareTo(b[bi])>0){
+        s[si] = b[bi];
+        bi++;
+      }
+    }
+    return s;
   }
   
   /**

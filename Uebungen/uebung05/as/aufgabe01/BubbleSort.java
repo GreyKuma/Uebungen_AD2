@@ -10,83 +10,99 @@ import java.util.Random;
 
 /**
  * @author tbeeler
- * 
- * BubbleSort. Two versions of the bubblesort for sorting integers. 
- * 
+ * <p>
+ * BubbleSort. Two versions of the bubblesort for sorting integers.
  */
 
 public class BubbleSort {
 
-  /**
-   * First version: no optimization.
-   * 
-   * @param <T>
-   *          Type of elements to be sorted. Must be comparable.
-   * @param sequence
-   *          The sequence to be sorted.
-   */
-  public static <T extends Comparable<? super T>> void bubbleSort1(T[] sequence) {
-    // TODO Implement here...
-  }
-  
-  /**
-   * Second version with slight optimization: The upper boundary is reduced by
-   * one in every iteration (the biggest bubble is on top now).
-   * 
-   * @param <T>
-   *          Type of elements to be sorted. Must be comparable.
-   * @param sequence
-   *          The sequence to be sorted.
-   */
-  public static <T extends Comparable<? super T>> void bubbleSort2(T[] sequence) {
-    // TODO Implement here...
-  }
-
-  public static void main(String args[]) throws Exception {
-    int nSequence = 200;
-    if (args.length > 0) {
-      nSequence = Integer.parseInt(args[0]);
-    }
-    Integer[] s1 = 
-        new Random().ints(nSequence, 0, 100).boxed().toArray(Integer[]::new);
-    Integer[] s2 = s1.clone();
-    if (nSequence > 300) {
-      System.out.println("Too many elements, not printing to stdout.");
-    } else {
-      Arrays.asList(s1).forEach(i -> System.out.print(i + ","));
-      System.out.println();
-    }
-    System.out.print("Bubble sort 1...");
-    long then = System.nanoTime();
-    bubbleSort1(s1);
-    long now = System.nanoTime();
-    long d1 = now - then;
-    System.out.println("done.");
-    System.out.print("Bubble sort 2...");
-    then = System.nanoTime();
-    bubbleSort2(s2);
-    now = System.nanoTime();
-    long d2 = now - then;
-    System.out.println("done.");
-    if (nSequence > 300) {
-      System.out.println("Too many elements, not printing to stdout.");
-    } else {
-      for (int i = 0; i < nSequence; i++) {
-        if (s1[i] != s2[i]) {
-          System.err.println("Sorting does not match!");
-          System.exit(1);
+    /**
+     * First version: no optimization.
+     *
+     * @param <T>      Type of elements to be sorted. Must be comparable.
+     * @param sequence The sequence to be sorted.
+     */
+    public static <T extends Comparable<? super T>> void bubbleSort1(T[] sequence) {
+        // TODO Implement here...
+        for(int j = 0; j < sequence.length; j++) {
+            for (int i = 0; i < sequence.length-1; i++) {
+                if (sequence[i].compareTo(sequence[i + 1]) > 0) {
+                    T temp = sequence[i];
+                    sequence[i] = sequence[i + 1];
+                    sequence[i + 1] = temp;
+                }
+            }
         }
-        System.out.print(s2[i] + ",");
-      }
-      System.out.println();
     }
-    System.out.format(
-        "Time bubble sort 1 :  Array-Size: %,7d       Time: %,7.1f ms\n", 
-        nSequence, d1 / 1_000_000.0);
-    System.out.format(
-        "Time bubble sort 2 :  Array-Size: %,7d       Time: %,7.1f ms\n", 
-        nSequence, d2 / 1_000_000.0);
-  }
+
+    /**
+     * Second version with slight optimization: The upper boundary is reduced by
+     * one in every iteration (the biggest bubble is on top now).
+     *
+     * @param <T>      Type of elements to be sorted. Must be comparable.
+     * @param sequence The sequence to be sorted.
+     */
+    public static <T extends Comparable<? super T>> void bubbleSort2(T[] sequence) {
+        // TODO Implement here...
+        int bound = sequence.length;
+        for(int j = 0; j < sequence.length; j++) {
+            for (int i = 0; i < bound-1; i++) {
+                if (sequence[i].compareTo(sequence[i + 1]) > 0) {
+                    T temp = sequence[i];
+                    sequence[i] = sequence[i + 1];
+                    sequence[i + 1] = temp;
+                }
+            }
+            bound--;
+        }
+
+    }
+
+    public static void main(String args[]) throws Exception {
+        int nSequence = 200;
+        if (args.length > 0) {
+            nSequence = Integer.parseInt(args[0]);
+        }
+        Integer[] s1 =
+                new Random().ints(nSequence, 0, 100).boxed().toArray(Integer[]::new);
+        Integer[] s2 = s1.clone();
+        if (nSequence > 300) {
+            System.out.println("Too many elements, not printing to stdout.");
+        } else {
+            Arrays.asList(s1).forEach(i -> System.out.print(i + ","));
+            System.out.println();
+        }
+        System.out.print("Bubble sort 1...");
+        long then = System.nanoTime();
+        bubbleSort1(s1);
+        long now = System.nanoTime();
+        long d1 = now - then;
+        System.out.println("done.");
+        System.out.print("Bubble sort 2...");
+        then = System.nanoTime();
+        bubbleSort2(s2);
+        now = System.nanoTime();
+        long d2 = now - then;
+        System.out.println("done.");
+        if (nSequence > 300) {
+            System.out.println("Too many elements, not printing to stdout.");
+        } else {
+            for (int i = 0; i < nSequence; i++) {
+                if (s1[i] != s2[i]) {
+                    System.err.println("Sorting does not match!");
+                    System.exit(1);
+                }
+                System.out.print(s2[i] + ",");
+            }
+            System.out.println();
+        }
+        System.out.format(
+                "Time bubble sort 1 :  Array-Size: %,7d       Time: %,7.1f ms\n",
+                nSequence, d1 / 1_000_000.0);
+        System.out.format(
+                "Time bubble sort 2 :  Array-Size: %,7d       Time: %,7.1f ms\n",
+                nSequence, d2 / 1_000_000.0);
+    }
 }
 
 /* Session-Log:
