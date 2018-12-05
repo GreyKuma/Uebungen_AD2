@@ -16,6 +16,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung04/as/aufgabe01/Original" />
       <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung05" />
       <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung06" />
+      <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung07" />
+      <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung08" />
+      <excludeFolder url="file://$MODULE_DIR$/Uebungen/uebung09" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
@@ -56,5 +59,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="org.hamcrest:hamcrest-junit:2.0.0.0" level="project" />
+    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="GVS_Client_Socket_v1.6" level="project" />
+    <orderEntry type="library" name="log4j-1.2.12" level="project" />
   </component>
 </module>

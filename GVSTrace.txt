@@ -1,156 +1,119 @@
-14:17:05 Tree   INFO  - Set default for host and Port
-14:17:05 Tree   INFO  - Host: 127.0.0.1 Port: 3000
-14:17:05 Commu  INFO  - Connect to 127.0.0.1 3000
-14:17:05 Commu  INFO  - Server is free. Communication are established
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Start building XML...
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - CreateBinaryNode -->XML
-14:17:05 Tree   INFO  - No Tyo. Standard will be set
-14:17:05 Tree   INFO  - Finish Create BinaryNode -->XML
-14:17:05 Tree   INFO  - Check for Cycles
-14:17:05 Tree   INFO  - Finish building XML
-14:17:05 Tree   INFO  - Call send
-14:17:05 Commu  INFO  - Send data
-14:17:05 Commu  INFO  - Finish send data
-14:17:05 Tree   INFO  - Call disconnect
-14:17:05 Commu  INFO  - Close Connection
+16:21:42 Tree   INFO  - Set default for host and Port
+16:21:42 Tree   INFO  - Host: 127.0.0.1 Port: 3000
+16:21:42 Commu  INFO  - Connect to 127.0.0.1 3000
+16:21:42 Commu  INFO  - Server is free. Communication are established
+16:21:42 Tree   INFO  - Call disconnect
+16:21:42 Commu  INFO  - Close Connection
+16:21:42 Graph  INFO  - Set default for host and port
+16:21:42 Graph  INFO  - host: 127.0.0.1 port: 3000
+16:21:42 Commu  INFO  - Connect to 127.0.0.1 3000
+16:21:42 Commu  INFO  - Server is free. Communication are established
+16:21:42 Graph  INFO  - Start bilding XML.....
+16:21:43 Graph  INFO  - Finish building XML
+16:21:43 Commu  INFO  - Send data
+16:21:43 Commu  INFO  - Finish send data
+16:21:43 Graph  INFO  - Start bilding XML.....
+16:21:43 Graph  INFO  - Finish building XML
+16:21:43 Commu  INFO  - Send data
+16:21:43 Commu  INFO  - Finish send data
+16:21:44 Graph  INFO  - Start bilding XML.....
+16:21:44 Graph  INFO  - Finish building XML
+16:21:44 Commu  INFO  - Send data
+16:21:44 Commu  INFO  - Finish send data
+16:21:44 Graph  INFO  - Start bilding XML.....
+16:21:44 Graph  INFO  - Finish building XML
+16:21:44 Commu  INFO  - Send data
+16:21:44 Commu  INFO  - Finish send data
+16:21:45 Graph  INFO  - Start bilding XML.....
+16:21:45 Graph  INFO  - Finish building XML
+16:21:45 Commu  INFO  - Send data
+16:21:45 Commu  INFO  - Finish send data
+16:21:45 Graph  INFO  - Start bilding XML.....
+16:21:45 Graph  INFO  - Finish building XML
+16:21:45 Commu  INFO  - Send data
+16:21:45 Commu  INFO  - Finish send data
+16:21:46 Graph  INFO  - Start bilding XML.....
+16:21:46 Graph  INFO  - Finish building XML
+16:21:46 Commu  INFO  - Send data
+16:21:46 Commu  INFO  - Finish send data
+16:21:46 Graph  INFO  - Start bilding XML.....
+16:21:46 Graph  INFO  - Finish building XML
+16:21:46 Commu  INFO  - Send data
+16:21:46 Commu  INFO  - Finish send data
+16:21:47 Graph  INFO  - Start bilding XML.....
+16:21:47 Graph  INFO  - Finish building XML
+16:21:47 Commu  INFO  - Send data
+16:21:47 Commu  INFO  - Finish send data
+16:21:47 Graph  INFO  - Start bilding XML.....
+16:21:47 Graph  INFO  - Finish building XML
+16:21:47 Commu  INFO  - Send data
+16:21:47 Commu  INFO  - Finish send data
+16:21:48 Graph  INFO  - Start bilding XML.....
+16:21:48 Graph  INFO  - Finish building XML
+16:21:48 Commu  INFO  - Send data
+16:21:48 Commu  INFO  - Finish send data
+16:21:48 Graph  INFO  - Start bilding XML.....
+16:21:48 Graph  INFO  - Finish building XML
+16:21:48 Commu  INFO  - Send data
+16:21:48 Commu  INFO  - Finish send data
+16:21:49 Graph  INFO  - Start bilding XML.....
+16:21:49 Graph  INFO  - Finish building XML
+16:21:49 Commu  INFO  - Send data
+16:21:49 Commu  INFO  - Finish send data
+16:21:49 Graph  INFO  - Start bilding XML.....
+16:21:49 Graph  INFO  - Finish building XML
+16:21:49 Commu  INFO  - Send data
+16:21:49 Commu  INFO  - Finish send data
+16:21:50 Graph  INFO  - Start bilding XML.....
+16:21:50 Graph  INFO  - Finish building XML
+16:21:50 Commu  INFO  - Send data
+16:21:50 Commu  INFO  - Finish send data
+16:21:50 Graph  INFO  - Start bilding XML.....
+16:21:50 Graph  INFO  - Finish building XML
+16:21:50 Commu  INFO  - Send data
+16:21:50 Commu  INFO  - Finish send data
+16:21:51 Graph  INFO  - Start bilding XML.....
+16:21:51 Graph  INFO  - Finish building XML
+16:21:51 Commu  INFO  - Send data
+16:21:51 Commu  INFO  - Finish send data
+16:21:51 Graph  INFO  - Start bilding XML.....
+16:21:51 Graph  INFO  - Finish building XML
+16:21:51 Commu  INFO  - Send data
+16:21:51 Commu  INFO  - Finish send data
+16:21:52 Graph  INFO  - Start bilding XML.....
+16:21:52 Graph  INFO  - Finish building XML
+16:21:52 Commu  INFO  - Send data
+16:21:52 Commu  INFO  - Finish send data
+16:21:52 Graph  INFO  - Start bilding XML.....
+16:21:52 Graph  INFO  - Finish building XML
+16:21:52 Commu  INFO  - Send data
+16:21:52 Commu  INFO  - Finish send data
+16:21:53 Graph  INFO  - Start bilding XML.....
+16:21:53 Graph  INFO  - Finish building XML
+16:21:53 Commu  INFO  - Send data
+16:21:53 Commu  INFO  - Finish send data
+16:21:53 Graph  INFO  - Start bilding XML.....
+16:21:53 Graph  INFO  - Finish building XML
+16:21:53 Commu  INFO  - Send data
+16:21:53 Commu  INFO  - Finish send data
+16:21:54 Graph  INFO  - Start bilding XML.....
+16:21:54 Graph  INFO  - Finish building XML
+16:21:54 Commu  INFO  - Send data
+16:21:54 Commu  INFO  - Finish send data
+16:21:54 Graph  INFO  - Start bilding XML.....
+16:21:54 Graph  INFO  - Finish building XML
+16:21:54 Commu  INFO  - Send data
+16:21:54 Commu  INFO  - Finish send data
+16:21:55 Graph  INFO  - Start bilding XML.....
+16:21:55 Graph  INFO  - Finish building XML
+16:21:55 Commu  INFO  - Send data
+16:21:55 Commu  INFO  - Finish send data
+16:21:55 Graph  INFO  - Start bilding XML.....
+16:21:55 Graph  INFO  - Finish building XML
+16:21:55 Commu  INFO  - Send data
+16:21:55 Commu  INFO  - Finish send data
+16:21:56 Graph  INFO  - Start bilding XML.....
+16:21:56 Graph  INFO  - Finish building XML
+16:21:56 Commu  INFO  - Send data
+16:21:56 Commu  INFO  - Finish send data
+16:21:56 Commu  INFO  - Close Connection

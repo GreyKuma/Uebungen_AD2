@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="GVS_Client_Socket_v1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/GVS_Client_Socket_v1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/GVS_Client_Socket_v1.6.jar!/doc" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
